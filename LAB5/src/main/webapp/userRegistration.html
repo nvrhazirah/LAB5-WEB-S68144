@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="processUser.jsp">
+            <fieldset>
+                <legend>User Details</legend><!-- comment -->
+                <br>
+                <label>Name</label> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                <input type="text" id="nm" name="nm1"  placeholder="E.g. Enter firstname"/>
+
+                <br><br>
+                <label>Surname</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="nm" name="nm2"  placeholder="E.g.Enter surname" />
+
+                <br><br>
+                <label>Password</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="text" id="pswrd" name="pswrd"  placeholder="E.g.Max 10 characters">
+
+                <br><br>
+                <label>Gender</label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+
+                <br><br>
+                <label>Type of User</label> 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <select name="typeUser">
+                    <option>Beginner</option>
+                    <option>Intermediate</option>
+                    <option>Advanced</option>
+
+                </select><br><br>
+
+                <label>Prefer Language</label> 
+                &nbsp; &nbsp; 
+                <input type="checkbox" id="malay" name="language" value="Malay">
+                <label for="language">Malay</label>
+
+                <input type="checkbox" id="english" name="language" value="English">
+                <label for="language"> English</label>
+
+                <input type="checkbox" id="mandarin" name="language" value="Mandarin">
+                <label for="language">Mandarin</label>
+
+                <input type="checkbox" id="tamil" name="language" value="Tamil">
+                <label for="language"> Tamil</label>
+                <br>
+                <p>
+                    <input type="submit" id="btnSubmit" value="Submit"/>
+                    <input type="reset" id="btnCancel" value="Cancel"/>
+
+                </p>
+            </fieldset>
+            
+            <br>
+        </form>
+        &copy2024-Nurhazirah
+
+
+    </body>
+</html>
